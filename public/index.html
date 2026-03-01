@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejecutivo BancoEstado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>🏦 Panel de Gestión BancoEstado</h1>
+    
+    <div id="mensaje-feedback" class="feedback-oculto"></div>
+
+    <div class="contenedor-principal">
+        <section class="modulo">
+            <h2>➕ Alta de Clientes</h2>
+            <div class="card">
+                <h3>Nuevo Cliente + Cuenta RUT</h3>
+                <input type="text" id="rut" placeholder="RUT (ej: 12.345.678-9)">
+                <input type="text" id="nombre" placeholder="Nombre completo">
+                <input type="number" id="saldo" placeholder="Saldo Inicial $">
+                <button onclick="crearClienteConRut()">Registrar Cliente</button>
+            </div>
+            <div class="card" style="border-top: 4px solid #007bff;">
+                <h3>Añadir Cuenta de Ahorro</h3>
+                <input type="text" id="rut-ahorro" placeholder="Escribe el RUT aquí">
+                <input type="text" id="alias-ahorro" placeholder="Alias (ej: Ahorro Vivienda)">
+                <input type="number" id="saldo-ahorro" placeholder="Saldo inicial $">
+                <button onclick="agregarCuentaAhorro()">Añadir Ahorro</button>
+            </div>
+        </section>
+
+        <section class="modulo">
+            <h2>👥 Clientes Registrados</h2>
+            <div id="lista-clientes" class="lista">
+                </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+[
+  {
+    "rut": "16782841-8",
+    "nombre": "Jenoveva Quijada Espinoza",
+    "cuentaRut": {
+      "saldo": 105000
+    },
+    "cuentasAhorro": [
+      {
+        "id": 1772307440115,
+        "alias": "Mascotas",
+        "saldo": 45000
+      }
+    ]
+  }
+]

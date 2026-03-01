@@ -1,0 +1,8 @@
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f0f2f5; color: #333; }
+.contenedor-principal { display: flex; gap: 20px; padding: 20px; }
+.modulo { flex: 1; }
+.card { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 20px; }
+input { display: block; width: 90%; margin: 10px 0; padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
+button { background: #ff4500; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-weight: bold; }
+button:hover { background: #e63e00; }
+.cliente-item { background: #fff; border-left: 5px solid #ff4500; padding: 15px; margin-bottom: 10px; border-radius: 5px; }
